@@ -4,6 +4,6 @@ Unprivleged users can install flatpaks just for themselves and not have to worry
 
 ```bash
 sudo tee /etc/profile.d/ <<EOF
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user
 EOF
 ```
